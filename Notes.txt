@@ -1,0 +1,17 @@
+nslookup.io , to access google/any other servers - This is DNS Server List
+Google server - 142.250.188.14
+Shyam Steel - 13.127.25.192 - Amazon Data services
+Erevmax - 52.86.182.27 - Amazon technologies
+Facebook - 157.240.22.35 
+
+We would be able to open these websites , if we paste these DNS addresses in the url bar
+
+submarine cable map is a website to access all under water cables , connecting internet throughout the world.
+
+opening tag - <h1>
+closing tag - </h1>
+
+* for a html file live reload is not possible without a head or a body tag
+
+loremipsum , broipsum etc paragraph example sites helps write random practise example paragraph.
+
