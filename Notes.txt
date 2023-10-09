@@ -16,3 +16,5 @@ closing tag - </h1>
 loremipsum , broipsum etc paragraph example sites helps write random practise example paragraph.
 
     -   Absolute and Relative File Path
+
+Style is a global attribute and can be used everywhere , in every tag.

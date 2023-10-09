@@ -1,0 +1,9 @@
+/* this goes to show how we can style up different element in css file
+here we set color for html element and text decoration for paragraph items */
+html{
+    background-color:beige;
+}
+p{
+    text-decoration-color:brown;
+    text-align: center;
+}
