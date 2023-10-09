@@ -1,19 +1,23 @@
 <!-- in here we are using a class selector , where class is getting defined to perform a color selection on certain elements where class 
 is mentioned as red-heading -->
 
+<!-- we also used id selector that works similar like class selector -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="class_css_example.css"/>
+    <link rel="stylesheet" href="class_css_id_example.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <h2 class="red-heading"> Red Heading </h2>
+    <h3 id="blue-heading">Blue Heading</h3>
     <ol>
         <li class="red-heading">This belongs to red heading</li>
-        <li>This doesn't belong to red heading</li>
+        <li>This doesn't belong to red or blue heading</li>
+        <li id="blue-heading">This belong belong to blue heading</li>
     </ol>
 </body>
 </html>

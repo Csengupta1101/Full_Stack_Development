@@ -1,0 +1,9 @@
+/* the .red-heading part is to specify the color of all objects belonging to the class */
+/* the # symbol is used for mentioning the id where we would like to apply the changes */
+
+.red-heading{
+    color: red;
+}
+#blue-heading{
+    color: blue;
+}
