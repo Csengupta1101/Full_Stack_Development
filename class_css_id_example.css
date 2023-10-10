@@ -1,9 +1,15 @@
 /* the .red-heading part is to specify the color of all objects belonging to the class */
 /* the # symbol is used for mentioning the id where we would like to apply the changes */
+/* we will also see how based on a attribute a selector can be assigned , below i am specifying that every paragraph which has a attribute 
+draggable set to true should be colored in blue */
 
 .red-heading{
     color: red;
 }
 #blue-heading{
+    color: blue;
+}
+
+p[draggable=true]{
     color: blue;
 }

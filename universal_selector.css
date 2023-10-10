@@ -1,0 +1,4 @@
+/* * represents the universal selector , using this means changes will be applied on everything */
+*{
+    color: black;
+}
