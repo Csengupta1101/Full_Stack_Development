@@ -1,0 +1,12 @@
+/* This refers to thickness of the font , normal , bold etc , another one is relative to parent tag like em , this has two variation
+lighter = -100 from parent
+bolder = +100 from parent */
+h1{
+    font-weight: bold;
+}
+.h1_child{
+    font-weight: bolder;
+}
+.h1_child_2{
+    font-weight: lighter;
+}
