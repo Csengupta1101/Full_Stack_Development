@@ -1,13 +1,32 @@
-.box_file{
-    height: 200 px;
-    width: 50 px;
-    border: 5px solid black;
-    text-align: center;
-    background-color: cyan;
+html{
+    background-color: darkgrey;
 }
-
-.p_file{
-    border: 1 px solid black;
+.box_file{
+    margin: auto;
+    height: 20%;
+    width: 20%;
+    border: 3px solid black;
     text-align: center;
-    background-color: bisque;
+    background-color: gainsboro;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.image_file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 10%;
+    width: 40%;
+    border: 3px solid black;
+   
+}
+.p_file{
+    margin: auto;
+    text-align: center;
+    border: 3px solid black;
+    background-color: rgba(240, 255, 255, 0.696);
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+
 }
