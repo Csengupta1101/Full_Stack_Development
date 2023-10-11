@@ -1,0 +1,27 @@
+/* 1 px - 1 pixel - 1/96 inch - 0.26 mm
+1 pt - 1 point - 1/72 inch - 0.35 mm
+1 pc - 1 pica - 12 points (about 1/6 of an inch) - 1/6 inch
+1 em - 1 M - full width of the letter m - m is the most wide letter in english elphabet - 100% of the parent (relative sizing)
+1 rem - 100% of the root - (relative sizing) */
+
+
+/* in the below example of em we are seeing a h1 tag which is a parent tag for a p element , now for the parent tag which is the h1 tag if we set font size as 20 px this means ,and 1 em for 
+it's child tag which is the p element will be 100% of the parent tag size which is 20 px , if we change the parent font size to 40 then simaltenously the child tag size will change ,
+now if we make the child tag size as 2 em then it's size will automatically change to 80 - (40*2 pixels) , this is relative sizing
+
+similarly with rem tag the changes will happen in relation with the root tag , which generally is the html tag  , based on it all the elements/tags under the root tag size wil change , as we
+provide rem value to them.  */
+
+.em{
+    font: size 40px;;
+}
+.h1_child{
+    font-size: 2em;
+}
+html{
+    font: size 80px;;
+    background-color: aqua;
+}
+.h2_child{
+    font-size: 4rem;
+}
