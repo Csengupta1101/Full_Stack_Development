@@ -30,5 +30,5 @@ inline style elemenmt argument remains as top priority , suppose in a ordered li
 we set the colour of ordered list as red , this will ideally apply on all list elements , but suppose in the html , we provide a inline
 colour (green) to any single list element , then only that element will turn green and the rest will stay as red. 
 
-
+> operator in css is used to modify only direct descendents.
 
