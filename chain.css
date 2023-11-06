@@ -1,0 +1,21 @@
+/* Chaining Method without using descendents */
+li#chain.speed.up{
+    color: red;
+}
+li#chain.speed.down{
+    color: blue;
+}
+/* Chaining Method with using descendents */
+ul li#chain.speed.up{
+    color: green;
+}
+ul li#chain.speed.down{
+    color: blueviolet;
+}
+.blank-circle{
+    background-color: green;
+    position: static;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
