@@ -25,7 +25,17 @@ Style is a global attribute and can be used everywhere , in every tag.
 1 em - 1 M - full width of the letter m - m is the most wide letter in english elphabet - 100% of the parent (relative sizing)
 1 rem - 100% of the root - (relative sizing)
 
+<<<<<<< HEAD
 CSS Chaining
     element - class/id
     h1#big.fox.trott  (here h1 is element , big is id and fox and trott are classes) , it should 
     always follow this line of chain. 
+=======
+While applying colors in css , we have to make sure that the color applied on our html elements follow the rule of prioritiy and the 
+inline style elemenmt argument remains as top priority , suppose in a ordered list , there are three items , if on a external css 
+we set the colour of ordered list as red , this will ideally apply on all list elements , but suppose in the html , we provide a inline
+colour (green) to any single list element , then only that element will turn green and the rest will stay as red. 
+
+> operator in css is used to modify only direct descendents.
+
+>>>>>>> 24cf774970bbb8312e65acc5d16643be8b79ac1b

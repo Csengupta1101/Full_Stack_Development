@@ -1,0 +1,9 @@
+p{
+    color: brown;
+}
+.lvl2 p{
+    color: green;
+}
+.lvl1 p{
+    color: bisque;
+}

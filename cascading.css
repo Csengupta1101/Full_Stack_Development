@@ -1,0 +1,12 @@
+h1{
+    color:burlywood !important;
+}
+.h1{
+    color: aqua;
+}
+h1[draggable]{
+    color: blueviolet;
+}
+#h12{
+    color: black;
+}
