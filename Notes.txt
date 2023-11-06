@@ -24,3 +24,8 @@ Style is a global attribute and can be used everywhere , in every tag.
 1 pc - 1 pica - 12 points (about 1/6 of an inch) - 1/6 inch
 1 em - 1 M - full width of the letter m - m is the most wide letter in english elphabet - 100% of the parent (relative sizing)
 1 rem - 100% of the root - (relative sizing)
+
+CSS Chaining
+    element - class/id
+    h1#big.fox.trott  (here h1 is element , big is id and fox and trott are classes) , it should 
+    always follow this line of chain. 
