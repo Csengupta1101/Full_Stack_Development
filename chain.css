@@ -14,8 +14,8 @@ ul li#chain.speed.down{
 }
 div.blank-circle{
     background-color: green;
-    position: absolute;
-    top: 300px;
+    position: relative;
+    top: 200px;
     left: 500px;
     height: 200px;
     width: 200px;
@@ -23,9 +23,43 @@ div.blank-circle{
 }
 div.red-square{
     background-color: red;
-    position: relative;
-    top: 309px;
-    left: 250px;
+    position: absolute;
+    top:50%;
+    left:50%;
     height: 50px;
     width: 50px;
+    transform: translate(-50%,-50%);
 }
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .bar {
+    width: 20px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .bar:nth-child(2) {
+    transform: translateX(-50%) rotate(72deg);
+  }
+
+  .bar:nth-child(3) {
+    transform: translateX(-50%) rotate(144deg);
+  }
+
+  .bar:nth-child(4) {
+    transform: translateX(-50%) rotate(216deg);
+  }
+
+  .bar:nth-child(5) {
+    transform: translateX(-50%) rotate(288deg);
+  }
