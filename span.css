@@ -1,0 +1,14 @@
+h2.span1{
+    display: inline block;
+    height: 30px;
+    width: 80px;
+    background-color: green;
+    font: bolder;
+}
+h2.span2{
+    display: inline block;
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    font: bolder;
+}
