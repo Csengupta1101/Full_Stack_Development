@@ -12,3 +12,8 @@ h2.span2{
     background-color: red;
     font: bolder;
 }
+span{
+    background-color: yellow;
+    display: inline-block;
+    font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif: bold;
+}
